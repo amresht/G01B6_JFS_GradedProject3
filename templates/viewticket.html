@@ -5,11 +5,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-	<title>Create New Ticket</title>
+	<title>View Ticket</title>
 </head>
 
 <body>
@@ -21,32 +20,27 @@
                 <tr>
                     <td width="25%"><a href="#" style="color: white;"> Ticket Tracker Application </a> </td>
                     <td width="15%"><a href="@{/tickets/search}" style="color: white;"> Tickets </a></td>
-                    <td width="60%"> New Ticket</td>
+                    <td width="60%"><a href="@{/tickets/newticket}" style="color: white;"> New Ticket</a></td>
+
                 </tr>    
             </table>
-            
             </div> 
 		<hr>
 		
-	<p class="h4 mb-4">Create Ticket </p>
+	<p class="h4 mb-4">View Ticket </p>
     
     <div class="container"  width="75%"  align="center">
         <table  class="table table-bordered table-striped">
 
-            <tr> <td>Title </td></tr>
-            <tr> <td><input type="text" name="title" value=""/> </td></tr>
-            <tr> <td>Short Description </td></tr>
-            <tr> <td><input type="text" name="description" value=""/> </td></tr>
-            <tr> <td>Content </td></tr>
-            <tr> <td><textarea id="content_id" name="content" rows="4" cols="40" >  </textarea></td></tr>
-            <tr> <td><input type="submit" class="btn btn-info btn-sm ml-3 mr-1" value="Submit" />  </td></tr>
+            <tr><td>Title </td> <td>Ticket 1</tr>
+            <tr> <td>Short Description </td> <td>Ticket description </td></tr>
+            <tr> <td>Created On </td><td> 12-07-2023</td></tr>
+            <tr> <td>Content </td><td> Ticket Content </td></tr>
         </table>
     </div>
 
-		<hr>
+	<hr>
 
-
-		
 	</div>
 </body>
 
